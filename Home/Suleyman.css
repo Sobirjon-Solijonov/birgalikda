@@ -1,0 +1,136 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+aside, nav, footer, header, section, main {
+	display: block;
+}
+a:hover  {
+    text-decoration: none;
+}
+ul, ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+.header{
+    max-width: 100%;
+    height: 1118px;
+    background-image: url('../img/Sulayman/Header/header-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 42px;
+    color: white;
+
+}
+.container{
+    width: 1622px;
+    margin: 0 auto;
+}
+
+.nav-header{
+    display: flex;
+
+    align-items: center;
+}
+.logo{
+    width: 114px;
+    height: 83px;
+}
+.List__nav{
+    display: flex;
+    column-gap: 70px;
+    margin-left: 400px;
+}
+.List__nav li{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    transition: all 0.1s ease-in-out;
+}
+.List__nav li:hover{
+    color: #252641;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid #252641;
+    padding: 2px;
+}
+.List__nav li:active{
+    transition: all 0.1s ease-in-out;
+    color: #FFFFFF;
+
+}
+.login{
+    margin-left: 80px;
+    display: flex;
+    column-gap: 26px;
+
+}
+.login__Login{
+    padding: 13px 49px 14px 50px;
+    background: conic-gradient(from 90deg at 50% 100%, #FFFFFF 0deg, #FFFFFF 360deg);
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 80px;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    transition: all 0.2s ease-out;
+}
+.login__Login:hover{
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    color: #FFFFFF
+
+}
+.login__Sign-Up{
+    width: 160px;
+    height: 60px;
+    
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    border-radius: 80px;
+    font-size: 22px;
+    line-height: 33px;
+
+    transition: all 0.2s ease-out;
+
+    color: #FFFFFF
+}
+.login__Sign-Up:hover{
+    background: conic-gradient(from 90deg at 50% 100%, #FFFFFF 0deg, #FFFFFF 360deg);
+    box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+    color: #5B5B5B;
+
+}
